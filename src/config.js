@@ -1,3 +1,3 @@
 module.exports = {
-    SERVER_HOST: "http://192.168.43.5:8080"
+    SERVER_HOST: "http://80.78.245.52:8080"
 }

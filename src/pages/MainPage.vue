@@ -87,14 +87,17 @@ export default {
 .auth-page-text a {
     color: #007bff;
     text-decoration: none;
-    transition: all .2s ease;
-    text-decoration: underline;
+    transition: all .1s ease;
+    background-color: #dedede;
+    padding: .1rem .8rem;
+    border-radius: .6rem;
 
 }
 
 .auth-page-text a:hover {
     cursor: pointer;
-    color: #0062ca;
+    color: #0b4c92;
+    background-color: #b6b6b6;
 }
 
 .auth_page_content {
