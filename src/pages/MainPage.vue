@@ -31,7 +31,7 @@
 import store from '../store'
 import DownloadProjectsPage from './DownloadProjectsPage.vue'
 //import LandingPageVue from './LandingPage.vue'
-import UserAuth from '@/components/UserAuth.vue'
+//import UserAuth from '@/components/UserAuth.vue'
 
 
 export default {
@@ -56,7 +56,7 @@ export default {
     components: {
         DownloadProjectsPage,
         //LandingPageVue,
-        UserAuth
+        //UserAuth
     }
 }
 </script>
