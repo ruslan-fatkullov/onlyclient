@@ -8,9 +8,9 @@
             </div>
         </div>
 
-        <DownloadProjectsPage v-if="isAuth"></DownloadProjectsPage>
-        <!--<LandingPageVue v-if="isAuth"></LandingPageVue>-->
-        <div v-else class="auth_page">
+        <DownloadProjectsPage></DownloadProjectsPage>
+        
+        <!--<div v-else class="auth_page">
             <div class="container auth_page_content">
                 <div class="row">
                     <div class="col-lg-6 auth-page-text">
@@ -23,7 +23,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div>-->
     </div>
 </template>
 
