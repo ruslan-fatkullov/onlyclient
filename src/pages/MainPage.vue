@@ -88,7 +88,7 @@ export default {
     color: #007bff;
     text-decoration: none;
     transition: all .1s ease;
-    background-color: #dedede;
+    background-color: #3b3b3b;
     padding: .1rem .8rem;
     border-radius: .6rem;
 
