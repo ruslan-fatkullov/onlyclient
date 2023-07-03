@@ -22,7 +22,7 @@
                     </li>
                     <li class="nav-item">
                         <div class="">
-                            <a @click="openMenu()" class="nav-link" href="https://esvoavia.ru" target="_blank">Сайт
+                            <a @click="openMenu()" class="nav-link" href="https://www.esvoavia.ru/" target="_blank">Сайт
                                 компании</a>
                         </div>
                     </li>

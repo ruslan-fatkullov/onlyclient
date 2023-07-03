@@ -73,9 +73,9 @@ export default {
 }
 
 .auth-page-text {
+    font-family: 'Rostelecom Basic Light', Helvetica, Arial, sans-serif;
     margin-top: 10%;
     text-align: center;
-    font-family: 'Rostelecom Basic Light', Helvetica, Arial, sans-serif;
 }
 
 .auth-page-text p {
