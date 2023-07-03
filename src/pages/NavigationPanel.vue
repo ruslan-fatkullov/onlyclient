@@ -233,6 +233,7 @@ export default {
 
 .nav-item {
     margin: auto 0;
+    font-family: 'Rostelecom Basic Light', Helvetica, Arial, sans-serif;
 }
 
 

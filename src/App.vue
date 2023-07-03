@@ -25,7 +25,7 @@ export default {
 
 @font-face {
 	font-family: 'Rostelecom Basic Light'; 
-	src: local('Rostelecom Basic Light'),url(../public/fonts/rostelecombasis_light.otf); 
+	src: local('Rostelecom Basic Light'),url("../public/fonts/rostelecombasis_light.otf"); 
 }
 
 
