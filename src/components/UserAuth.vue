@@ -183,7 +183,9 @@ export default {
             }
         },
         async sendmailphp(){
-            await axios.post(config.SERVER_HOST+"/php")
+            await axios.post(config.SERVER_HOST+"/php").then((res)=>{
+                console.log(res)
+            })
         }
     },
 };
