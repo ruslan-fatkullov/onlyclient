@@ -45,7 +45,7 @@
             <a class="" @click="changeMode()" exact>{{ isLoginMode ? "Зарегистрируйтесь" : "Войти" }}</a>
         </div>
     </form>
-    <a href="../php/sendmail.php">Поехали!</a>
+    <a href="../../public/sendmail.php">Поехали!</a>
 
 </template>
 
