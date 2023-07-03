@@ -45,14 +45,10 @@
             <a class="" @click="changeMode()" exact>{{ isLoginMode ? "Зарегистрируйтесь" : "Войти" }}</a>
         </div>
     </form>
-    <div @click="sendmailphp()">send</div>
-    <!--<a href="../../public/sendmail.php">Поехали!</a>-->
 </template>
 
 <script>
-import axios from "axios";
 import store from "../store/index";
-import config from "@/config";
 
 export default {
     data() {
@@ -182,11 +178,6 @@ export default {
                 this.$refs.password_confirm.setAttribute('type', 'password');
             }
         },
-        async sendmailphp(){
-            await axios.post(config.SERVER_HOST+"/php").then((res)=>{
-                console.log(res)
-            })
-        }
     },
 };
 </script>
