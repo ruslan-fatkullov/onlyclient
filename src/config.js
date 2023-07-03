@@ -1,3 +1,3 @@
 module.exports = {
-    SERVER_HOST: "http://get-esvo-launcher.ru"
+    SERVER_HOST: "https://get-esvo-launcher.ru"
 }
