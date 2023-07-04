@@ -69,6 +69,9 @@ export default {
         },
         // получение пользователя по email
         async getUserByEmailAction(context){
+            if (!localStorage.getItem("email")){
+                return
+            }
             await axios.get(config.SERVER_HOST + "/api/getUserByEmail", { params: { email: localStorage.getItem("email") } }, {
                 headers: {
                     "Content-type": "application/json"
