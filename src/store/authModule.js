@@ -10,8 +10,6 @@ export default {
         loginStatus: "", //success , not confirmed
         isAuth: true,
         loginResultMessage: "", // неверный пароль и.т.д
-
-
         registerUser: {},
         regResultMessage: ""
     },

@@ -70,6 +70,7 @@ export default {
         };
     },
     methods: {
+        // сменить режим (авторизация/регистрация)
         changeMode() {
             this.isLoginMode = !this.isLoginMode
             this.passwordTips = ""
@@ -80,8 +81,8 @@ export default {
             this.lastName = ""
             this.password_confirmation = ""
         },
+        // авторизация
         login() {
-
             if (this.isLoginMode) {
                 this.resultString = ""
                 this.loading = true;
@@ -103,7 +104,6 @@ export default {
                             this.sendEmailAgain = true;
                             this.viewInput = false;
                         }
-
                         store.dispatch("getUserByEmailAction")
                     });
             } else {
@@ -126,6 +126,7 @@ export default {
                 })
             }
         },
+        // отправить ссылку на подтверждение аккаунта
         sendEmailConfirmLink() {
             store.dispatch("sendEmailConfirmLink", {
                 email: this.email,
@@ -133,9 +134,9 @@ export default {
                 this.resultString = store.getters.getLoginResultMessage;
             })
         },
+        //Проверка пароля на валидность
         validate() {
             if (!this.isLoginMode) {
-
                 this.$refs.validation_result.classList.remove("valid_pass")
                 this.isValidPassword = false
                 if (this.password.length === 0) {
@@ -167,6 +168,7 @@ export default {
                 this.isValidPassword = true
             }
         },
+        // Скрыть/показать пароль
         viewPassword() {
             if (this.$refs.password.getAttribute('type') == 'password') {
                 this.$refs.password_control.classList.add("view");

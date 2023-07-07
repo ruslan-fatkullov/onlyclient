@@ -9,7 +9,6 @@
         </div>
 
         <DownloadProjectsPage v-if="isAuth"></DownloadProjectsPage>
-        
         <div v-else class="auth_page">
             <div class="container auth_page_content">
                 <div class="row">
@@ -30,7 +29,6 @@
 <script>
 import store from '../store'
 import DownloadProjectsPage from './DownloadProjectsPage.vue'
-//import LandingPageVue from './LandingPage.vue'
 import UserAuth from '@/components/UserAuth.vue'
 
 
@@ -55,7 +53,6 @@ export default {
     },
     components: {
         DownloadProjectsPage,
-        //LandingPageVue,
         UserAuth
     }
 }
